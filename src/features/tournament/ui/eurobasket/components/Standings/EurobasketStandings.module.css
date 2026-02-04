@@ -1,0 +1,39 @@
+.card {
+    background: rgba(0, 0, 0, 0.18);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 12px 0;
+    color: #e5e7eb;
+}
+
+.table thead th {
+    text-align: left;
+    font-size: 12px;
+    opacity: 0.9;
+    padding: 10px 8px;
+    background: #052e2b;
+}
+
+.table tbody td {
+    padding: 10px 8px;
+    font-weight: 600;
+}
+
+.team {
+    width: 100%;
+    text-align: left;
+}
+
+.flag {
+    width: 18px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.pts {
+    text-align: right;
+    padding-left: 20px;
+}

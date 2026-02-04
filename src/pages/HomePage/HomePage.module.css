@@ -1,0 +1,21 @@
+.page {
+    display: grid;
+    gap: 24px;
+    padding: 16px;
+}
+
+.page {
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+    .page {
+        grid-template-columns: repeat(2, minmax(320px, 1fr));
+    }
+}
+
+@media (min-width: 1320px) {
+    .page {
+        grid-template-columns: repeat(3, minmax(320px, 1fr));
+    }
+}

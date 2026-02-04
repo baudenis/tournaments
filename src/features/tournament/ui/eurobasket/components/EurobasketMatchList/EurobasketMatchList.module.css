@@ -1,0 +1,43 @@
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.flag {
+    width: 18px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.name {
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 140px;
+}
+
+.vs {
+    opacity: 0.8;
+    font-weight: 700;
+}
+
+.score {
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}

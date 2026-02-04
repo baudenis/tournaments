@@ -1,0 +1,23 @@
+.card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #111827;
+    text-align: left;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
