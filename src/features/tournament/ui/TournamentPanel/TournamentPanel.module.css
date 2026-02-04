@@ -8,7 +8,7 @@
     border-radius: 12px;
     overflow: hidden;
 
-    background: #f3f4f6;
+    background: var(--panel-bg);
     border: 1px solid #e5e7eb;
 
     height: 720px;
@@ -49,8 +49,7 @@
 
     overflow: auto;
     min-height: 0;
-
-    background: var(--panel-bg);
+    flex: 1;
 }
 
 
