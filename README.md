@@ -10,6 +10,38 @@ Users can:
 
 State persists between refreshes.
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js >= 18
+- npm or yarn
+
+---
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/baudenis/tournaments.git
+```
+
+Install dependencies and run the app
+```bash
+npm install
+# or
+yarn install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
 ## Architecture
 
 - Feature-based structure (`features/tournament`)
